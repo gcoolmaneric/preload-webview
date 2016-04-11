@@ -11,13 +11,15 @@
   `#import "ASIHTTPRequest.h"`
 
   `#import "ASIFormDataRequest.h"`
+  
 
-- Preload CrossBannae html 
+- Preload a html page. 
 
   `NSString* serverUrl = [NSString stringWithFormat:@"%@?userId=%@", crossPageIP, [self genUUID]];
   [[MTPopupWindow sharedInstance] preloadHtml:serverUrl];`
  
- - Display html 
+ 
+ - Display the html 
  
   `NSString* serverUrl = [NSString stringWithFormat:@"%@?userId=%@", crossPageIP, [self genUUID]];
   [[MTPopupWindow  sharedInstance] showWindowWithHTMLFile:serverUrl insideView:your view];`
