@@ -1,6 +1,7 @@
 # Preload-webview
- Preload a html page in cahce to smoothly display the page without any time lag. 
- 
+
+- Preload a html page in cahce to smoothly display the page without any time lag. 
+- Include UnityAds SDK to display video ads
 
 # How to use ? 
 
