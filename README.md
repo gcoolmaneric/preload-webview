@@ -16,10 +16,12 @@
 - Preload a html page. 
 
   `NSString* serverUrl = [NSString stringWithFormat:@"%@?userId=%@", crossPageIP, [self genUUID]];
+  
   [[MTPopupWindow sharedInstance] preloadHtml:serverUrl];`
  
  
- - Display the html 
+ - Display a html page.  
  
   `NSString* serverUrl = [NSString stringWithFormat:@"%@?userId=%@", crossPageIP, [self genUUID]];
+
   [[MTPopupWindow  sharedInstance] showWindowWithHTMLFile:serverUrl insideView:your view];`
