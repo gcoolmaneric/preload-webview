@@ -62,7 +62,7 @@ int kDefaultMargin = 5;
 
 
 // UnityAds SDK
-static NSString *GAME_ID = @"72089";
+static NSString *GAME_ID = @"Your Game ID";
 
 @implementation MTPopupWindow
 
