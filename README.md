@@ -16,12 +16,12 @@
 
 - Preload a html page. 
 
- `NSString* serverUrl = @" Your Page URL";`
+ `NSString* serverUrl = @" Your WebPage URL";`
   
   `[[MTPopupWindow sharedInstance] preloadHtml:serverUrl];`]
   
 - Display the html page.
  
-  `NSString* serverUrl =  @" Your Page URL";`
+  `NSString* serverUrl =  @" Your WebPage URL";`
 
   `[[MTPopupWindow  sharedInstance] showWindowWithHTMLFile:serverUrl insideView:your view];`
